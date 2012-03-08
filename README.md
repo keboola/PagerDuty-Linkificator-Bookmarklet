@@ -13,7 +13,10 @@ and bookmarklet creates a link like this:
 
 # Installation
 
-Copy and paste the bookmarklet.min.js content to the bookmarks URL.
+Copy and paste the bookmarklet.min.js content to the bookmark's URL. You can also drag'n'drop this link to your bookmark bar:
+
+<a href="javascript:var script=document.createElement("script");script.src="https://raw.github.com/keboola/PagerDuty-Linkificator-Bookmarklet/master/linkificator.min.js?rand="+Math.random();document.getElementsByTagName("head")[0].appendChild(script);">Make PD event detail nicer</a>
+
 
 # Requirements
 
@@ -26,3 +29,12 @@ Tested in
   * Chrome 17
   * Firefox 7
   * IE 9
+
+
+# Chrome Extension
+
+This bookmarklet can be used also as a Chrome Extension in Developer mode. You do not need to run the script, the logs are formatted automatically. This extension does not have an icon, as it is so simple, that it should work all the time.
+
+Installation instructions:
+
+http://code.google.com/chrome/extensions/getstarted.html#load

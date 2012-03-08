@@ -1,0 +1,14 @@
+{
+	"name":"PagerDuty Linkificator Bookmarklet",
+	"version":"1.0",
+	"description":"This extension helps you to create link from URLs and format JSON data in PagerDuty incident detail log.",
+	"content_scripts":[
+		{
+			"matches":["https://*.pagerduty.com/*"],
+			"js":["chrome-extension/jquery.js", "bookmarklet.min.js"]
+		}
+	],
+	"permissions": [
+		"https://*.pagerduty.com/"
+	]
+}
