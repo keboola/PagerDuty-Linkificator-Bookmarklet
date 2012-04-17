@@ -33,8 +33,4 @@ Tested in
 
 # Chrome Extension
 
-This bookmarklet can be used also as a Chrome Extension in Developer mode. You do not need to run the script, the logs are formatted automatically. This extension does not have an icon, as it is so simple, that it should work all the time.
-
-Installation instructions:
-
-http://code.google.com/chrome/extensions/getstarted.html#load
+Download and install from https://s3.amazonaws.com/keboola-chrome-extensions/pagerduty.crx
